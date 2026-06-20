@@ -1,0 +1,14 @@
+﻿services:
+  webserver:
+    networks:
+      - fraud-network
+  scheduler:
+    networks:
+      - fraud-network
+  triggerer:
+    networks:
+      - fraud-network
+networks:
+  fraud-network:
+    external: true
+    name: fraud-network

@@ -1,0 +1,21 @@
+# مزودات Airflow الأساسية (بدون Spark لتجنب الـ PySpark الضخم)
+apache-airflow-providers-http==4.8.0
+
+# معالجة البيانات
+kafka-python==2.0.2
+clickhouse-driver==0.2.6
+neo4j==5.14.0
+redis==4.6.0
+
+# توليد البيانات
+faker==18.11.2
+numpy==1.24.3
+pandas==2.0.3
+
+# التعلم الآلي
+scikit-learn==1.3.0
+joblib==1.3.2
+
+# أدوات مساعدة
+python-dotenv==1.0.0
+requests==2.31.0

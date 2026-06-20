@@ -1,0 +1,30 @@
+﻿# المجلدات الكبيرة (هذه هي المشكلة!)
+volumes/
+data/
+spark-app/
+# مجلدات Astro
+.astro/
+logs/
+# مجلدات Python
+__pycache__/
+*.pyc
+venv/
+env/
+# ملفات Git
+.git/
+.gitignore
+# ملفات مؤقتة
+*.log
+*.tmp
+*.swp
+# ملفات Docker (لا نحتاجها داخل الصورة)
+docker-compose*.yml
+Dockerfile*
+# ملفات قاعدة بيانات
+*.db
+*.sqlite
+# ملفات إعدادات كبيرة
+*.cfg
+airflow_settings.yaml
+# ملفات البيئة
+.env
